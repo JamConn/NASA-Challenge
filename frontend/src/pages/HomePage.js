@@ -35,7 +35,7 @@ function HomePage() {
           <img 
             src={apod.url} 
             alt={apod.title} 
-            style={{ width: '100%', maxWidth: '800px', borderRadius: '10px' }} 
+            style={{ width: '1000px', borderRadius: '10px' }} 
           />
           <p>{apod.explanation}</p>
         </div>
